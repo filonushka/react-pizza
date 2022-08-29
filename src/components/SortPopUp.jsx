@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -14,8 +15,12 @@ const SortPopUp = React.memo(function SortPopUp({
     setVisiblePopup(!visiblePopup);
   };
 
-  const handleOutsideClick = (e) => {
-    if (!e.path.includes(sortRef.current)) {
+  const handleOutsideClick = (event) => {
+    const path =
+      event.path ||
+      (event.composedPath && event.composedPath()) ||
+      composedPath(event.target);
+    if (!path.includes(sortRef.current)) {
       setVisiblePopup(false);
     }
   };
