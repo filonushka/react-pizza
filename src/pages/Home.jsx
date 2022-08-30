@@ -41,7 +41,6 @@ function Home() {
   }, []);
 
   const handleAddPizzaToCart = (obj) => {
-    console.log(obj, addPizzaToCart);
     dispatch({
       type: "ADD_PIZZA_CART",
       payload: obj,
@@ -69,7 +68,7 @@ function Home() {
               <PizzaBlock
                 onClickAddPizza={handleAddPizzaToCart}
                 key={obj.id}
-                addedCount={cartItems[obj.id] && cartItems[obj.id].length}
+                addedCount={cartItems[obj.id] && cartItems[obj.id].items.length}
                 {...obj}
               />
             ))

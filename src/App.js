@@ -16,7 +16,7 @@ function App() {
     dispatch(setLoaded(false));
     axios
       .get(
-        `http://localhost:3001/pizzas?$(category=${
+        `/pizzas?$(category=${
           category !== null ? `category=${category}` : ""
         }&_sort=${sortBy.type}&_order=desc=${sortBy.order}`
       )
