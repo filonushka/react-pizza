@@ -10,15 +10,14 @@ import { setPizzas, setLoaded } from "./redux/actions/pizzas";
 function App() {
   const { category, sortBy } = useSelector(({ filters }) => filters);
   const dispatch = useDispatch(sortBy, category);
-  console.log(sortBy, category);
 
   React.useEffect(() => {
     dispatch(setLoaded(false));
     axios
       .get(
-        `/pizzas?$(category=${
-          category !== null ? `category=${category}` : ""
-        }&_sort=${sortBy.type}&_order=desc=${sortBy.order}`
+        `/pizzas?${category !== null ? `category=${category}` : ""}&_sort=${
+          sortBy.type
+        }&_order=${sortBy.order}`
       )
       .then(({ data }) => {
         dispatch(setPizzas(data));
