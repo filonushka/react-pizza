@@ -1,4 +1,4 @@
-## PET-PROJECT "Online pizza-shop "REACT-PIZZA"  
+## PET-PROJECT Online pizza-shop "REACT-PIZZA"  
 
 - [Figma Layout](https://www.figma.com/file/016D17fLQs0YhdYoNzgyrb/React-Pizza-(Copy))
 
