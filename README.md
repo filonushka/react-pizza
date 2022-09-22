@@ -1,14 +1,15 @@
 ## PET-PROJECT "Online pizza-shop "REACT-PIZZA"  
 
-## Stack:
+- [Figma Layout](https://www.figma.com/file/016D17fLQs0YhdYoNzgyrb/React-Pizza-(Copy))
 
-- ReactJS + ReactHooks  
-- React Router  
-- Redux  
-- Redux thunk  
-- json-server  
-- Axios  
-- classnames
+- **Tech Stack:**  
+  - ReactJS + ReactHooks  
+  - React Router  
+  - Redux  
+  - Redux thunk  
+  - json-server  
+  - Axios  
+  - classNames
 
 ## Available Scripts
 
