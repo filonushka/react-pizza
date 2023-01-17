@@ -1,14 +1,15 @@
-## PET-PROJECT "Online pizza-shop "REACT-PIZZA"  
+## PET-PROJECT Online pizza-shop "REACT-PIZZA"  
 
-## Stack:
+- [Figma Layout](https://www.figma.com/file/016D17fLQs0YhdYoNzgyrb/React-Pizza-(Copy))
 
-- ReactJS + ReactHooks  
-- React Router  
-- Redux  
-- Redux thunk  
-- json-server  
-- Axios  
-- classnames
+- **Tech Stack:**  
+  - ReactJS + ReactHooks  
+  - React Router  
+  - Redux  
+  - Redux thunk  
+  - json-server  
+  - Axios  
+  - classNames
 
 ## Available Scripts
 
@@ -31,6 +32,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-![image](https://user-images.githubusercontent.com/70750996/188431814-bdfc9093-5281-4e1c-9384-93ee916bd44b.png)
-![image](https://user-images.githubusercontent.com/70750996/188432719-327ef301-0ae7-4c9f-8831-d2ee2b84d478.png)
+![image](https://user-images.githubusercontent.com/70750996/188437715-d2975b34-dd39-43ed-9190-784739e98a1b.png)  
+![image](https://user-images.githubusercontent.com/70750996/188438001-d7a15964-5643-4c8a-83ae-fbe97bc4ea32.png)
+
+
 
